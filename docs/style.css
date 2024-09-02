@@ -1,0 +1,75 @@
+* {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background-color: #f9f8f6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+header {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    padding: 1px;
+    box-shadow: 0 2px 6px #00000029;
+}
+.NordPoolLogo {
+    background-color: #ffffff;
+    margin-left: 30px;
+    max-width: 290px;
+}
+main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.SelectionBox {
+    background-color: #ffffff;
+    color: #008d7f;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+    font-size: 18px;
+    margin: 6%;
+    box-shadow: 0 2px 6px #00000029;
+}
+.SelectionBox select {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 2px solid #f9f8f6;
+}
+.SelectionBox button {
+    background-color: #008d7f;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    align-self: center;
+}
+.SelectionBox button:hover {
+    background-color: #00685e;
+    cursor: pointer;
+}
+footer {
+    background-color: #333836;
+    width: 100%;
+    padding: 50px;
+}
